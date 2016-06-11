@@ -4,7 +4,7 @@
 *
 *Declaring config class constants
 */
-/*class Config
+class Config
  {
     const HOST     = '172.27.59.54',
           USER     = 'ecomm',
@@ -13,8 +13,8 @@
 		HELPER = "Helper.php";
 } 
 
-*/
 
+/*
 
 class Config
  {
@@ -25,6 +25,6 @@ class Config
                 HELPER = "Helper.php";
 }
 
-
+*/
 
 ?>
