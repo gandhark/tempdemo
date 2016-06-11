@@ -32,7 +32,7 @@
             "imagePullPolicy": "IfNotPresent"
           }
         ],
-        "restartPolicy": "Always",
+        "restartPolicy": "Always"
       }
     }
   }
