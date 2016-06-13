@@ -22,7 +22,7 @@
         "containers": [
           {
             "name": "ecomm-app-con",
-            "image": "ecomm-app-img",
+            "image": "pushpendrad/ecomm-app-img",
             "ports": [
               {
                 "containerPort": 80,
