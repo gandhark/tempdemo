@@ -1,7 +1,7 @@
 <?php
 
-require_once("ecomm_project/Helper.php");
-if(!class_exists('Config')): require('Config '); endif;
+//require_once("ecomm_project/Helper.php");
+//if(!class_exists('Config')): require('Config '); endif;
 //include("Product.php");
 
 //$helper=new Helper();
