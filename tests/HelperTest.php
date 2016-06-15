@@ -15,11 +15,11 @@ class HelperTest extends PHPUnit_Framework_TestCase
 			$this->assertEquals("1",$this->helper->insert("a","a","a","a"));
 
 		}
-		public function testread_record()
+		public function testdelete()
 		{
 			$this->helper=new Helper("ecomm");
                         //$this->asser('172.27.59.54', true);
-                        $this->assertEquals("true",$this->helper->read_record("a","b","c"));
+                        $this->assertnEquals("!null",$this->helper->delete("a","b"));
 		}
 /*	public function testupdateProduct()
 		{
