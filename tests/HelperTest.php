@@ -19,13 +19,13 @@ class HelperTest extends PHPUnit_Framework_TestCase
 		{
 			$this->helper=new Helper("ecomm");
                         //$this->asser('172.27.59.54', true);
-                        $this->assertEquals("!null",$this->helper->delete("a","b"));
+                        $this->assertEquals(false,$this->helper->delete("a","b"));
 		}
 	public function testupdate()
 		{
 			$this->helper=new Helper("ecomm");
                         //$this->asser('172.27.59.54', true);
-                        $this->assertEquals("null",$this->helper->update("a","b","c"));
+                        $this->assertEquals(true,$this->helper->update("a","b","c"));
 		}
 /*		public function testdeleteProduct()
 		{
