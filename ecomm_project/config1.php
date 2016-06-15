@@ -14,17 +14,5 @@ class Config
 } 
 
 
-/*
-
-class Config
- {
-    const HOST     = '172.27.59.211',
-          USER     = 'admin',
-          PASSWORD = 'admin',
-
-                HELPER = "Helper.php";
-}
-
-*/
 
 ?>
