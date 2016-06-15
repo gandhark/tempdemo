@@ -1,6 +1,6 @@
 <?php
 //if(!class_exists('ecomm_project/config.ph')): require('ecomm_project/Config '); endif;
-include_once("ecomm_project/Helper.php");
+require_once("ecomm_project/Helper.php");
 //include("Product.php");
 
 //$helper=new Helper();
