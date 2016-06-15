@@ -1,6 +1,6 @@
 <?php
-
-require_once("ecomm_project/Helper.php");
+if(!class_exists('BoughtTicket')): require('ecomm_project/Helper.php'); endif;
+//require_once("ecomm_project/Helper.php");
 //include("Product.php");
 
 //$helper=new Helper();
