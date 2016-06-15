@@ -1,6 +1,6 @@
 <?php
 
-require("ecomm_project/Helper.php");
+require_once("ecomm_project/Helper.php");
 //include("Product.php");
 
 //$helper=new Helper();
