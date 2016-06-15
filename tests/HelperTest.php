@@ -19,7 +19,7 @@ class HelperTest extends PHPUnit_Framework_TestCase
 		{
 			$this->helper=new Helper("ecomm");
                         //$this->asser('172.27.59.54', true);
-                        $this->assertEquals("array",gettype($this->helper->read_record("a","b","c")));
+                        $this->assertEquals("true",$this->helper->read_record("a","b","c"));
 		}
 /*	public function testupdateProduct()
 		{
