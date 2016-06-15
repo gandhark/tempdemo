@@ -11,8 +11,7 @@ class HelperTest extends PHPUnit_Framework_TestCase
 		public function testinsert()
 		{
 			$this->helper=new Helper("ecomm");
-			print_r( $this->helper->insert("a","a","a","a")	);
-			//$this->asser('172.27.59.54', true);
+		//	//$this->asser('172.27.59.54', true);
 			$this->assertEquals("1",$this->helper->insert("a","a","a","a"));
 
 		}
