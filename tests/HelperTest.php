@@ -1,5 +1,5 @@
 <?php
-if(!class_exists('ecomm_project/config1.php')): require('ecomm_project/config1.php'); endif;
+if(!class_exists('ecomm_project/Config')): require('ecomm_project/Config '); endif;
 //require_once("ecomm_project/Helper.php");
 //include("Product.php");
 
